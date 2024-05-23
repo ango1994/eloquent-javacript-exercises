@@ -15,11 +15,3 @@ class Group {
 }
 
 const set = new Group()
-set.add("apartamento")
-set.add("apartamento")
-console.log(set.group)
-set.delete("casa")
-console.log(set.group)
-console.log(set.has("casa"))
-const sym = Symbol("fo")
-console.log(sym)
